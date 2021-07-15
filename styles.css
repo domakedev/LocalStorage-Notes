@@ -50,6 +50,7 @@ main{
 
 .dataIn{
     height:50px;
+    width: 250px;
     margin: 10px;
     border: 1px solid turquoise;
     padding: 10px;
@@ -74,6 +75,27 @@ main{
     transform: translateY(1px);
     background-color: rgb(130, 192, 194);
 
+}
+
+.nota{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notas{
+    margin-top:20px;
+    width: 50%;
+}
+
+.notas_container{
+    width: 100%;
+}
+
+.delete-nota{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
